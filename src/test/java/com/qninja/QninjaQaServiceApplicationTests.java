@@ -9,8 +9,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @SpringApplicationConfiguration(classes = QninjaQaServiceApplication.class)
 public class QninjaQaServiceApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	}
+
 
 }

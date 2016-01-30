@@ -56,18 +56,18 @@ public class SampleJsonGenerator {
 		question.setText("Where to go? So many good choice. Where my peeps at with the votes?");
 
 		Choice c1 = new Choice();
-		c1.setOrder(1);
+		c1.setQuestionOrder(1);
 		c1.setText("MC Donald's");
 
 		Choice c2 = new Choice();
-		c2.setOrder(2);
+		c2.setQuestionOrder(2);
 		c2.setText("Arby's");
 
 		Choice c3 = new Choice();
-		c3.setOrder(3);
+		c3.setQuestionOrder(3);
 		c3.setText("Pizza Man");
 
-		question.setQuestionChoices(Arrays.asList(c1,c2,c3));
+		question.setChoices(Arrays.asList(c1,c2,c3));
 
 		GeoLocation geoLocation = new GeoLocation();
 		geoLocation.setLatitude(43.0373580d);
